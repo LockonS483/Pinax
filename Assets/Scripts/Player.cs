@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     public Transform zenCircle;
     Renderer zenRenderer;
 
+    public AudioSource shoot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -64,6 +66,7 @@ public class Player : MonoBehaviour
         }else{
             foreach(Transform fp in firePoints){
                 Instantiate(projectile, fp.position, fp.rotation);
+                shoot.Play();
             }
             fireCooldown = 1;
         }
