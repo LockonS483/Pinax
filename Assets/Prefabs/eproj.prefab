@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6741192193131702488}
   m_Layer: 0
   m_Name: eproj
-  m_TagString: PProj
+  m_TagString: EProj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6741192193131702491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.1, y: -0.030999854, z: -0.978}
-  m_LocalScale: {x: 0.074824266, y: 0.074824266, z: 0.18047799}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3097af6c1d834e5469c9e2afad0f668f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 5
-  speed: 50
+  lifeTime: 10
+  speed: 6
 --- !u!96 &6741192193131702488
 TrailRenderer:
   serializedVersion: 2
@@ -119,7 +119,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6741192193131702491}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -152,7 +152,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.08
+  m_Time: 0
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -161,7 +161,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21052694
+        value: 0.26238322
         inSlope: -0.11253124
         outSlope: -0.11253124
         tangentMode: 0

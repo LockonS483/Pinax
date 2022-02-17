@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6413567875123684360}
   - component: {fileID: 195191687912394744}
   - component: {fileID: 6687532091349755021}
+  - component: {fileID: -5760656120014165879}
   m_Layer: 0
   m_Name: pproj
   m_TagString: PProj
@@ -218,3 +219,17 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &-5760656120014165879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6413567875123684363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40c9f6e7fe8563478061f545ea568ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 1
+  oneshot: 1
